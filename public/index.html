@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>
+        Our To-Do List
+    </title>
+    <link rel='stylesheet' href='/public/assets/global-style.css'>
+    <link rel='stylesheet' href='/public/assets/styles.css'>
+    <script src='/dist/main.js' defer></script>
+</head>
+<body>
+<section class='title'>
+    <h1>Our To-Dos</h1>
+</section>
+<section class='main'>
+    <section class='sub-section users'>
+        <h1 class="section-title">Users</h1>
+        <form class="input-form users">
+            <input type="text" name='user-entry'>
+            <button type="submit">+</button>
+        </form>
+        <ul class='users-list'></ul>
+    </section>
+    <section class='sub-section groups'>
+        <h2 class="section-title">Groups</h2>
+        <form class="input-form groups">
+            <input type="text" name='group-entry'>
+            <button type="submit">+</button>
+        </form>
+        <ul class='groups-list'></ul>
+    </section>
+    <section class='sub-section todos'>
+        <h2 class="section-title">To-Dos</h2>
+        <form class="input-form todos">
+            <input type="text" name='todo-entry'>
+            <button type="submit">+</button>
+        </form>
+        <ul class='todos-list'></ul>
+    </section>
+    <section class='sub-section done'>
+        <h2 class="section-title">Done</h2>
+        <ul class='done-list'></ul>
+    </section>
+</section>
+</body>
+</html>

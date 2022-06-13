@@ -1,0 +1,52 @@
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 48px;
+    padding: 24px;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sub-section {
+    border: 5px black solid;
+    width: 400px;
+    height: 600px;
+    margin: 5px;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+    font-size: 36px;
+}
+
+.main li {
+    font-family: Times New Roman;
+    font-weight: normal;
+    font-size: 18px;
+    list-style: square;
+    margin: 10px 40px;
+
+}
+
+.main li:hover {
+    font-weight: bold;
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.input-form {
+    display:flex;
+    justify-content: center;
+    margin: 5px;
+    gap: 5px;
+}
