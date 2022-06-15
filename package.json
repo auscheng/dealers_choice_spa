@@ -5,9 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config ./config/webpack.config.js",
-    "build-dev": "npm run build -- --mode=development --watch",
-    "start-dev": "NODE_ENV='development' nodemon server/index.js --ignore dist/ --ignore src/ & npm run build-dev",
-    "start-dev-seed": "SEED=true npm run start-dev"
+    "build:dev": "npm run build -- --mode=development --watch",
+    "start:dev": "NODE_ENV='development' nodemon server/index.js --ignore dist/ --ignore src/ & npm run build:dev",
+    "start:dev-seed": "SEED=true npm run start:dev"
   },
   "keywords": [],
   "author": "Austin Cheng",
